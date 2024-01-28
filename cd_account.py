@@ -26,9 +26,9 @@ def create_cd_account(balance, interest_rate, months):
 
     # Pass the updated_balance to the set balance method using the instance of the CDAccount class.
      # ADD YOUR CODE HERE
-    updated_balance.set_balance()
+    cd_account.set_balance(updated_balance)
     # Pass the interest_earned to the set interest method using the instance of the CDAccount class.
     # ADD YOUR CODE HERE
-    interest_earned.set_interest()
+    cd_account.set_interest(interest_earned)
     # Return the updated balance and interest earned.
-    return(f"updated_balance, interest_earned")  # ADD YOUR CODE HERE
+    return updated_balance, interest_earned  # ADD YOUR CODE HERE
