@@ -1,1 +1,2 @@
-# customer_banking
+# Customer Banking
+## This a UNC AI bootcamp project. It is a banking application showing how to create and import functions, separate functions in top different files,passing arguements, and creating class methods. 
